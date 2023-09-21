@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%; /* 10px */ 
+}
+
+body {
+    background-color: rgb(249, 245, 240);
+}
+
+#carousel img {
+    padding: 1.0rem;
+    margin-bottom: 2.0rem;
+}
+
+header > h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+header > p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+
+    margin-bottom: 3.0rem;
+}
+
+section {
+    padding: 1.0rem;
+}
+
+section .col {
+    margin-bottom: 1.0rem;
+}
+
+section .card-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    font-size: 2.0rem;
+    margin: 1.0rem 0;
+}
+
+section .card-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+section .card-footer {
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+
+.card :hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    #carousel img {
+        height: 35vh;
+    }
+    header h1 {
+        font-size: 3.0rem;
+    }
+    header p {
+        font-size: 2.4rem;
+        margin-bottom: 3.6rem;
+    }
+    section .card-text {
+        margin-top: 1.5rem;
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #carousel img {
+        height: 35vw;
+    }
+    header h1 {
+        font-size: 3.0rem;
+    }
+    header p {
+        font-size: 2.4rem;
+        margin-bottom: 3.6rem;
+    }
+}
